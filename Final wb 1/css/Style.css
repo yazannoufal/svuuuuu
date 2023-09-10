@@ -1,0 +1,237 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800;900&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: Poppins,sans-serif;
+    color: #242732;
+}
+
+.bg-image {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding-top: 35px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+}
+
+.offcanvas-header {
+    justify-content: end;
+}
+
+.nav-link {
+    color: black;
+}
+
+.info {
+    padding-top: 15px;
+}
+
+    .info p {
+        margin: 0px;
+    }
+
+.navbar .info a {
+    font-size: 23px;
+    color: black;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+about-detail {
+    padding-top: 35%;
+    padding-bottom: 100px;
+}
+
+.about-detail h5 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.about-detail h1 {
+    font-size: 58px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.about-detail p {
+    font-size: 22px;
+    color: white;
+    line-height: 28px;
+}
+
+.about-detail button {
+    border: none;
+    padding: 15px 40px;
+    margin-top: 15px;
+    color: white;
+    background: #ef6735;
+}
+
+    .about-detail button i {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+
+.typing {
+    position: relative;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+    .typing::after {
+        content: "|";
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background: #ceb0b0;
+        animation: typing 6s steps(22) infinite, caret 1s infinite;
+    }
+
+@-webkit-keyframes typing {
+    to {
+        width: 0;
+    }
+}
+
+@keyframes typing {
+    to {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes caret {
+    50% {
+        color: transparent;
+    }
+}
+
+@keyframes caret {
+    50% {
+        color: transparent;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-detail h5 {
+        font-size: 25px;
+    }
+
+    .about-detail h1 {
+        font-size: 38px !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about-detail {
+        padding-top: 15%;
+        padding-bottom: 60px;
+    }
+
+        .about-detail h5 {
+            font-size: 20px;
+        }
+
+        .about-detail h1 {
+            font-size: 35px !important;
+            margin-bottom: 5px !important;
+        }
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+    .banner-img img {
+        position: absolute;
+        bottom: 0px;
+        width: 90%;
+    }
+
+@media screen and (max-width:768px) {
+    .banner-img {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner-img {
+        height: auto;
+    }
+
+        .banner-img img {
+            position: relative;
+        }
+}
+.bg-color {
+    background-color: #eaedf2;
+}
+
+
+.about-left img {
+    width: 100%;
+}
+
+.about-right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+    .about-right h2 {
+        font-size: 35px;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .about-right h6 {
+        color: #f90505;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .about-right p {
+        line-height: 35px;
+        font-size: 16px;
+        margin-bottom: 50px;
+        letter-spacing: 0.2px;
+        word-spacing: 0.5px;
+    }
+
+        .about-right p span {
+            color: black;
+            font-weight: 600;
+            border-bottom: 3px solid red;
+        }
+
+    .about-right table tr td {
+        padding: 10px;
+    }
+
+@media screen and (max-width:768px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px 0px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about-right table tr td,
+    .about-right table tr th {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
